@@ -1,0 +1,22 @@
+name = "imrvwn"
+main = "index.js"
+compatibility_date = "2025-11-09"
+workers_dev = true
+preview_urls = true
+# logpush job is setup to capture from envs ending: log, pro, or one
+logpush = false
+# use node_compat or custom build
+# node_compat = true
+send_metrics = false
+minify = false
+
+[vars]
+UUID = "1d491374-9048-48e4-8e64-2f92307e7396"
+PROXYIP = "turk.radicalization.ir"
+
+# [build]
+# command = "npm run deploy"
+
+# [[rules]]
+# type = "ESModule"
+# globs = ["**/*.js"]
